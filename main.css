@@ -40,12 +40,28 @@ body p {
 }
 
 .logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.logoImg {
+    margin-top: 15px;
 }
 
 li {
     margin-left: 20px;
+    transition: 0.5s;
+    border-top: 2px solid white;
+    font-size: 22px;
+}
+
+li:hover  {
+    color: #2196F3;
+    border-top: 2px solid #2196F3;
+}
+
+.menu {
+    margin-top: 15px;
 }
 
 .search {
@@ -58,6 +74,7 @@ li {
     align-content: center;
     background-color: #2196F3;
     color: #EEEEEE;
+    margin-left: 20px;
 }
 .matrl {
     color: #2196F3;
@@ -113,15 +130,16 @@ li {
     border-radius: 6px;
     margin-left: 10px;
     background-color: #EEEEEE;
-    transition: 0.2s;
-    color: #878787;;
-
+    transition: 0.3s;
+    color: #878787;
+    
 }
 
 .portfolio .smoll {
     width: 50px;
     height: 50px;
 }
+
 .portfolio button:hover {
     background-color: #2196F3;
     color: white;
@@ -138,7 +156,6 @@ li {
     height: 300px;
     border: 0.2px solid rgb(231, 226, 226);
     margin-top: 20px;
-
 }
 
 .exploreWork {
@@ -158,18 +175,10 @@ li {
     color: white;
 }
 
-
 .blueDiv {
     display: flex;
     justify-content: center;
-
 }
-
-/* .sectionFive  */
-
-
-/* .sectionSix  */
-
 
 .teamImg {
     width: 255px;
@@ -242,8 +251,7 @@ li {
 
 .storiesIcon  i {
     color: white;
-    font-size: 30px;
-   
+    font-size: 30px; 
 }
 
 .comment {
@@ -260,6 +268,7 @@ li {
 .contact span {
     margin-left: 20px;
 }
+
 .contactIcon {
     width: 50px;
     height: 50px;
@@ -302,7 +311,7 @@ li {
 }
 
 .footerIcons {
-display: flex;
+    display: flex;
 }
 
 .footerIcon {
@@ -315,8 +324,13 @@ display: flex;
     align-content: center;
     background-color: #2A2A2F;
     margin-left: 5px;
+    transition: 0.4s;
 }
 
+.footerIcon:hover {
+    background-color: #2196F3;
+    color: #2A2A2F;
+}
 .shrixtFooter {
     width: 30px;
     border-bottom: 2px solid #2196F3;
@@ -343,6 +357,7 @@ display: flex;
 }
 
 .finish {
+    padding: 15px;
     background-color: black;
     color: white;
     display: flex;
@@ -354,9 +369,6 @@ display: flex;
 .finish p {
     margin-top: 0px;
 }
-
-
-
 
 @media(max-width:770px) {
     .team {
@@ -375,5 +387,13 @@ display: flex;
 
     .logoImg {
         margin-top: 20px;
+    }
+
+    li {
+        margin-top: 10px;
+    }
+
+    .search {
+        margin-top: 10px;
     }
 }
