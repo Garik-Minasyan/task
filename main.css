@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.fa, .fas, .fab, .far {
+    font-family: FontAwesome !important;
+    font-style: normal;
+}
+
+body p {
+    color:#878787;
+    margin-top: 25px; 
+}
+.section {
+    margin-top: 70px;
+}
+
+.section i {
+    font-size: 30px;
+    color: #2196F3;
+}
+
+.section h4 {
+    color: #2196F3;
+    margin-top: 10px;
+}
+
+.block {
+    margin-top: 70px;
+    background-color: #F9F9F9;
+    padding: 30px;
+}
+
+.shtrix {
+    width: 50px;
+    height: 20px;
+    border-top: 3px solid #2196F3;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #2196F3;
+    color: #EEEEEE;
+}
+.matrl {
+    color: #2196F3;
+}
+
+.carouselImg {
+    height: 700px;
+}
+
+.advantage {
+    text-align: center;
+   
+}
+
+.iconsBlockParagraph {
+    background-color: white;
+    border: 0.5px solid rgb(231, 226, 226);
+}
+
+.iconsBlock {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.iconDiv {
+    width: 100px;
+    height: 80px;
+    color: #2196F3;
+    font-size: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.iconDiv:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio button {
+    width: 80px;
+    height: 50px;
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: #EEEEEE;
+    transition: 0.2s;
+    color: #878787;;
+
+}
+
+.portfolio .smoll {
+    width: 50px;
+    height: 50px;
+}
+.portfolio button:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 13px;
+}
+
+.imgPortfolio {
+    width: 360px;
+    height: 300px;
+    border: 0.2px solid rgb(231, 226, 226);
+    margin-top: 20px;
+
+}
+
+.exploreWork {
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #2196F3;
+    color: white;
+    margin-top: 40px;
+}
+
+.exploreWork i {
+    color: white;
+}
+
+
+.blueDiv {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .sectionFive  */
+
+
+/* .sectionSix  */
+
+
+.teamImg {
+    width: 255px;
+    height: 210px;
+    border: 0.2px solid rgb(231, 226, 226);
+}
+
+.ourTeam {
+    width: 255px;
+    padding: 15px;
+    background-color: white;
+    border: 0.2px solid rgb(231, 226, 226);
+}
+
+.ourTeam h4 {
+    color: #2196F3;
+}
+
+.ourTeam i {
+    color: #8C8C8C;
+    margin-left: 5px;
+}
+
+.carouselPng {
+    margin-top: 70px;
+    
+}
+
+.caruselImg {
+    height: 500px;
+}
+
+.awesome {
+    width: 270px;
+    height: 130px;
+}
+
+.servicesSection {
+    text-align: center;
+}
+
+.photo {
+    width: 350px;
+    height: 260px;
+}
+
+.infoStories {
+    width: 350px;
+    border: 0.5px solid #E5E5E5;
+    padding: 15px;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.storiesIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #2196F3;
+}
+
+.storiesIcon  i {
+    color: white;
+    font-size: 30px;
+   
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}  
+
+.contact span {
+    margin-left: 20px;
+}
+.contactIcon {
+    width: 50px;
+    height: 50px;
+    background-color: #2196F3;
+    box-shadow: 5px 5px rgb(200, 195, 195);
+    border-radius: 4px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #EEEEEE;
+}
+
+.send {
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.sendMessage {
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #2196F3;
+    color: white;
+}
+
+.footer {
+    margin-top: 70px;
+    padding: 30px;
+    background-color: #333333;
+    color: white;
+}
+
+.footerIcons {
+display: flex;
+}
+
+.footerIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #2A2A2F;
+    margin-left: 5px;
+}
+
+.shrixtFooter {
+    width: 30px;
+    border-bottom: 2px solid #2196F3;
+}
+
+.footerImg {
+    width: 50px;
+    height: 50px;
+}
+
+.footerImgs {
+    margin-top: 50px;
+}
+
+.imgDiv {
+    width: 70px;
+    height: 70px;
+    background-color: #EEEEEE;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.finish {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.finish p {
+    margin-top: 0px;
+}
+
+
+
+
+@media(max-width:770px) {
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .awesomeDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .logoImg {
+        margin-top: 20px;
+    }
+}
